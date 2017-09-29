@@ -17,7 +17,7 @@ import com.sap.conn.jco.JCoTable;
 public class SNCClientToGetTicketForExternalID
 {
     static String ABAP_AS = "ABAP_AS_WITHOUT_POOL";
-	
+    
     public static void getTicketForExternalID() throws JCoException
     {
         //JCoDestination is the logic address of an ABAP system and ...
@@ -30,14 +30,14 @@ public class SNCClientToGetTicketForExternalID
         //JCoFunction is container for function values. Each function contains separate
         //containers for import, export, changing and table parameters.
         //To set or get the parameters use the APIS setValue() and getXXX(). 
-		
-		/*
+        
+        /*
         function.getImportParameterList().setValue("AUTH_METHOD", "R"); // RFC trusted system
-		function.getImportParameterList().setValue("USERID", "BWDEVELOPER");
-		*/
+        function.getImportParameterList().setValue("USERID", "BWDEVELOPER");
+        */
         function.getImportParameterList().setValue("AUTH_METHOD", "E"); // External ID (PAS)
-		function.getImportParameterList().setValue("AUTH_DATA", "S0001142741");
-		function.getImportParameterList().setValue("EXTID_TYPE",  "ID"); // External ID from Trusted RFC System
+        function.getImportParameterList().setValue("AUTH_DATA", "S0001142741");
+        function.getImportParameterList().setValue("EXTID_TYPE",  "ID"); // External ID from Trusted RFC System
         // function.getImportParameterList().setValue("AUTH_DATA",   "GATEWAY\\GWOLF");
         // function.getImportParameterList().setValue("EXTID_TYPE",  "NT"); // NT Domain User (domain\\user)
         
@@ -59,7 +59,7 @@ public class SNCClientToGetTicketForExternalID
         System.out.println(" USER_ID: " + function.getExportParameterList().getString("USER_ID"));
         System.out.println(" TICKET : " + function.getExportParameterList().getString("TICKET"));
         System.out.println();
-    }	
+    }    
         
     public static void main(String[] args) throws JCoException
     {
