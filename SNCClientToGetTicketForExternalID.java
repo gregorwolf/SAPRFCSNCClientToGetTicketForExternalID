@@ -36,7 +36,7 @@ public class SNCClientToGetTicketForExternalID
         function.getImportParameterList().setValue("USERID", "BWDEVELOPER");
         */
         function.getImportParameterList().setValue("AUTH_METHOD", "E"); // External ID (PAS)
-        function.getImportParameterList().setValue("AUTH_DATA", "S0001142741");
+        function.getImportParameterList().setValue("AUTH_DATA",   "gregor.wolf@gmail.com");
         function.getImportParameterList().setValue("EXTID_TYPE",  "ID"); // External ID from Trusted RFC System
         // function.getImportParameterList().setValue("AUTH_DATA",   "GATEWAY\\GWOLF");
         // function.getImportParameterList().setValue("EXTID_TYPE",  "NT"); // NT Domain User (domain\\user)
