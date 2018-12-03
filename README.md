@@ -9,7 +9,7 @@ You can get the required components at:
 
 - [SAP Cryptographic Library](https://launchpad.support.sap.com/#/softwarecenter/template/products/%20_APP=00200682500000001943&_EVENT=DISPHIER&HEADER=Y&FUNCTIONBAR=N&EVENT=TREE&NE=NAVIGATE&ENR=01200615320100002625&V=MAINT&TA=ACTUAL&PAGE=SEARCH/SAPCRYPTOLIB
 )
-- [Single Sign On with External ID implemented in Ruby](https://launchpad.support.sap.com/#/softwarecenter/template/products/%20_APP=00200682500000001943&_EVENT=DISPHIER&HEADER=Y&FUNCTIONBAR=N&EVENT=TREE&NE=NAVIGATE&ENR=01200314690100001183&V=MAINT&TA=ACTUAL&PAGE=SEARCH/SAP%20JCO)
+- [SAP Java Connector (JCo)](https://launchpad.support.sap.com/#/softwarecenter/template/products/%20_APP=00200682500000001943&_EVENT=DISPHIER&HEADER=Y&FUNCTIONBAR=N&EVENT=TREE&NE=NAVIGATE&ENR=01200314690100001183&V=MAINT&TA=ACTUAL&PAGE=SEARCH/SAP%20JCO)
 
 To detect if the user session is using SNC you can either use transaction SM04, select the session and choose User -> Technical Info. 
 In the resulting list you should find an entry:
