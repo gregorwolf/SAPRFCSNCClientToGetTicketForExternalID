@@ -1,5 +1,7 @@
 # SAP RFC SNC Client to get a SAP Logon Ticket for External ID
 
+SAP has published a great Note: [2642538 - How to enable SNC from external java program to ABAP using standalone JCo3](https://launchpad.support.sap.com/#/notes/2642538) showing the steps needed on Windows.
+
 This Java Demo program is based on the SAP Community Blogs:
 
 - [Setup data encryption between RFC Client and Web AS ABAP with SNC](https://blogs.sap.com/2006/09/29/setup-data-encryption-between-rfc-client-and-web-as-abap-with-snc/)
